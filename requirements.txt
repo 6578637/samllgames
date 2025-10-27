@@ -1,0 +1,22 @@
+# RK3568手机屏幕检测程序依赖
+# 这些依赖需要在RK3568开发板上安装
+
+# RKNN运行时 - 用于加载和运行RKNN模型
+rknn-toolkit-lite>=1.7.5
+
+# 图像处理库
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# 系统工具
+# 注意：subprocess, time, os, math 是Python标准库，无需额外安装
+
+# 可选：用于调试和日志记录
+# Pillow>=8.0.0  # 如果需要额外的图像处理功能
+
+# 安装命令：
+# pip3 install -r requirements.txt
+# 或者使用系统包管理器：
+# sudo apt update
+# sudo apt install python3-pip python3-opencv python3-numpy
+# pip3 install rknn-toolkit-lite
